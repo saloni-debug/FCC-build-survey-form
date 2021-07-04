@@ -1,0 +1,109 @@
+
+body{
+  background-color: lightblue;
+  background-image:url('https://t3.ftcdn.net/jpg/04/14/01/74/360_F_414017416_Uhoe78wBsKtCmx7pvILchl6joMQrDgTY.jpg');
+background-size: cover;
+background-position: center;
+}
+header {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#description {
+  font-family: cursive;
+}
+#survey-form {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  padding: 15px;
+  background-color: gray;
+  border: 2px dashed;
+}
+.form-group {
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #2F4F4F;
+  font-family: tahoma;
+ }
+.form-group > label, .form-group > p {
+  display: block;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.form-control {
+  padding: 10px;
+  width: 70%;
+  margin-top: 10px;
+  border: 2px solid #aaaebc;
+  outline: none;
+  font-size: 18px;
+}
+input:focus {
+  border: 2px solid pink;
+}
+input[type=radio] {
+  transform: scale(1.6);
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+input[type=checkbox] {
+  transform: scale(1.6);
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+#dropdown, #most-like, #comments {
+  width: 73%;
+}
+#dropdown:focus, #most-like:focus {
+  background-color: lightblue;
+}
+
+.input-textarea{
+  outline: none;
+}
+.input-textarea:focus{
+  border: 1px solid pink;
+}
+#comments {
+  margin-top: 9px;
+  }
+
+
+#submit {
+  width: 100px;
+  height: 40px;
+  color: darkblack;
+  font-size: 20px;
+  font-family: tahoma;
+  background-color: #cccccc;
+  cursor: pointer;  
+  border: 2px solid black;
+}
+textarea, input[type=text], input[type=number], input[type=email], #dropdown, #most-like{
+  background-color: #cccccc;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  #survey-form {
+    width: 100%;
+    background-color: red;
+  }  
+}
+    @media (max-width: 1000px) {
+  
+#dropdown {
+    
+width: 74%;
+  
+}
+
+}
+
+
+
